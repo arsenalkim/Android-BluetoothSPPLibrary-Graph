@@ -57,5 +57,12 @@
             android:text="Bluetooth MyGraph"
             android:id="@+id/btnMyGraph"
             android:gravity="center_vertical|left" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bluetooth MyGraphV2"
+            android:id="@+id/btnMyGraphV2"
+            android:gravity="center_vertical|left" />
     </LinearLayout>
 </RelativeLayout>

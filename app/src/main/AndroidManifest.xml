@@ -39,6 +39,10 @@
             android:name="app.akexorcist.bluetoothspp.MyGraphActivity"
             android:label="@string/title_activity_my_graph" >
         </activity>
+        <activity
+            android:name="app.akexorcist.bluetoothspp.MyGraphV2Activity"
+            android:label="@string/title_activity_my_graphV2" >
+        </activity>
     </application>
 
 </manifest>

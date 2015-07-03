@@ -32,6 +32,9 @@ public class Main extends Activity implements OnClickListener {
 
         Button btnMyGraph = (Button) findViewById(R.id.btnMyGraph);
         btnMyGraph.setOnClickListener(this);
+
+        Button btnMyGraphV2 = (Button) findViewById(R.id.btnMyGraphV2);
+        btnMyGraphV2.setOnClickListener(this);
     }
 
     public void onClick(View v) {
@@ -60,6 +63,10 @@ public class Main extends Activity implements OnClickListener {
                 break;
             case R.id.btnMyGraph:
                 intent = new Intent(getApplicationContext(), MyGraphActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btnMyGraphV2:
+                intent = new Intent(getApplicationContext(), MyGraphV2Activity.class);
                 startActivity(intent);
                 break;
         }

@@ -68,7 +68,7 @@ public class MyGraphActivity extends Activity {
             }
         });
 
-        drawChart(50, chart_height);
+
     }
 
     public void drawChart(int height) {
